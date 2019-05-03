@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SalesModule producer="Microarea s.p.a." localize="core module" edition="Professional">
+  <ShortNames>
+    <ShortName name="CORE" />
+  </ShortNames>
+  <Application container="Applications" name="sandbox">
+    <Module name="core" />
+  </Application>
+</SalesModule>

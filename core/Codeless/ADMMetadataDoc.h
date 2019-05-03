@@ -1,0 +1,18 @@
+
+#pragma once
+
+#include "beginh.dex"
+
+/////////////////////////////////////////////////////////////////////////////
+//							ADMMetadataDocObj
+/////////////////////////////////////////////////////////////////////////////
+//
+class TB_EXPORT ADMMetadataDocObj : public ADMObj
+{     
+	DECLARE_ADMCLASS(ADMMetadataDocObj)
+		
+public:
+	virtual	ADMObj*		GetADM() = 0;
+};
+
+#include "endh.dex"

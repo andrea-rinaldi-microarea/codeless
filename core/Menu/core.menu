@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppMenu>
+  <Application name="sandbox" image_namespace="Image.sandbox.core.Images.core.png">
+    <Title localizable="true">sandbox TB Application</Title>
+    <Group name="sandbox.core">
+      <Title localizable="true">core module</Title>
+      <Menu name="coreOptions">
+        <Title localizable="true">Core Options</Title>
+        <Document>
+          <Title localizable="true">Categories</Title>
+          <Object>sandbox.core.coreDocuments.Categories</Object>
+        </Document>
+        <Document>
+          <Title localizable="true">Metedata only</Title>
+          <Object>sandbox.core.codeless.MetadataDoc</Object>
+        </Document>
+      </Menu>
+    </Group>
+  </Application>
+</AppMenu>

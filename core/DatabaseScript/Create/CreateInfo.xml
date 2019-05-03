@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreateInfo>
+  <ModuleInfo name="core" />
+  <Level1>
+  <Step numstep="1" script="SB_Categories.sql" />
+<Step numstep="2" script="Entity.sql" />
+</Level1>
+  <Level2 />
+</CreateInfo>

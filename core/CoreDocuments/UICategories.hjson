@@ -1,0 +1,5 @@
+#pragma once
+#include	<TbNameSolver\TBResourcesMap.h>
+#include	<core\ModuleObjects\Categories\JsonForms\IDD_CATEGORIES.hjson>
+#include	<core\ModuleObjects\Categories\JsonForms\IDD_CATEGORIES_VIEW.hjson>
+#include	<core\ModuleObjects\Categories\JsonForms\IDD_TD_CATEGORIES_MAIN.hjson>

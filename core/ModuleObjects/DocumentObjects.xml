@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentObjects>
+  <Documents>
+  	<Document 
+        namespace="sandbox.core.coreDocuments.Categories" 
+        localize="Categories document" 
+        classhierarchy="DCategories" 
+        templateNamespace="document.sandbox.core.codeless.MetadataDoc"
+        mainForm="IDD_CATEGORIES"
+    >
+		<InterfaceClass>ADMCategoriesObj</InterfaceClass>
+		<ViewModes>
+			<Mode name="Default" />
+			<Mode name="BackGround" />
+		</ViewModes>
+	</Document>
+    <Document namespace="sandbox.core.codeless.MetadataDoc" localize="Metadata Document" classhierarchy="CMetadataDoc" >
+      <InterfaceClass>ADMMetadataDocObj</InterfaceClass>
+      <ViewModes>
+        <Mode name="Default" />
+        <Mode name="BackGround" />
+      </ViewModes>
+    </Document>
+  </Documents>
+</DocumentObjects>

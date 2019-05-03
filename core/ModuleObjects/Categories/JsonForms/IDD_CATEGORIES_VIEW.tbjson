@@ -1,0 +1,19 @@
+{
+  "id": "IDD_CATEGORIES_VIEW",
+  "name": "Categories",
+  "type": 1/*View*/,
+  "child": true,
+  "items": [
+    {
+      "id": "IDC_TG_CATEGORIES",
+      "name": "Categories",
+      "type": 72/*TileGroup*/,
+      "layoutType": 4/*VBOX*/,
+      "items": [
+        {
+          "href": "IDD_TD_CATEGORIES_MAIN"
+        }
+      ]
+    }
+  ]
+}

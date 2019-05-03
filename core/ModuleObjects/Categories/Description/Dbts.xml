@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DBTs xmlns:sl="urn:TBStringLoader">
+  <Master namespace="sandbox.core.coreDocuments.Categories.Categories">
+    <Title localizable="true">Categories document</Title>
+    <Table namespace="sandbox.core.coreDbl.SB_Categories">SB_Categories</Table>
+    <Slaves>
+    </Slaves>
+  </Master>
+</DBTs>

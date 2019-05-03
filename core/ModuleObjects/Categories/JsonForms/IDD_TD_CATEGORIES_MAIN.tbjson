@@ -1,0 +1,48 @@
+{
+  "id": "IDD_TD_CATEGORIES_MAIN",
+  "type": 71,
+  "text": "Categories document",
+  "name": "MainData",
+  "size": 2,
+  "x": 0,
+  "y": 0,
+  "width": 654,
+  "height": 73,
+  "child": true,
+  "items": [
+    {
+      "id": "IDC_CATEGORIES_CODE",
+      "controlClass": "StringEdit",
+      "binding": {
+        "datasource": "Categories.Code"
+      },
+      "type": 13,
+      "width": 48,
+      "height": 12,
+      "autoHScroll": true,
+      "controlCaption": "Code",
+      "anchor": "COL1",
+      "captionSize": 3,
+      "controlSize": 6
+    },
+    {
+      "id": "IDC_CATEGORIES_DESCRI",
+      "controlClass": "StringEdit",
+      "binding": {
+        "datasource": "Categories.Description"
+      },
+      "type": 13,
+      "width": 154,
+      "height": 36,
+      "autoVScroll": true,
+      "wantReturn": true,
+      "multiline": true,
+      "controlCaption": "Description",
+      "anchor": "COL1",
+      "captionSize": 3,
+      "controlSize": 6
+    }
+  ],
+  "hasStaticArea": true,
+  "grid": "col col-md-6"
+}

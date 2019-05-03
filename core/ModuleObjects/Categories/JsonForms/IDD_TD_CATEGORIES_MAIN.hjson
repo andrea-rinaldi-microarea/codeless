@@ -1,0 +1,5 @@
+#pragma once
+#include	<TbNameSolver\TBResourcesMap.h>
+#define	IDD_TD_CATEGORIES_MAIN			GET_IDD(IDD_TD_CATEGORIES_MAIN, D.sandbox.core.Categories)
+#define	IDC_CATEGORIES_DESCRI			GET_IDC(IDC_CATEGORIES_DESCRI)
+#define	IDC_CATEGORIES_CODE			GET_IDC(IDC_CATEGORIES_CODE)

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DatabaseObjects>
+  <Signature>core</Signature>
+  <Release>1</Release>
+  <Tables>
+  	<Table namespace="sandbox.core.coreDbl.SB_Categories" mastertable="true">
+		<Create release="1" createstep="1" />
+		<Columns>
+			<Column name="Code" localize="Code" lenght="10" type="string" defaultvalue="" release="1" />
+			<Column name="Description" localize="Description" lenght="128" type="string" defaultvalue="" release="1" />
+		</Columns>
+	</Table>
+	<Table namespace="sandbox.core.coreDbl.Entity" mastertable="true">
+		<Create release="1" createstep="2" />
+		<Columns>
+			<Column name="DocID" localize="Doc ID" lenght="0" type="Long" defaultvalue="0" release="1" />
+			<Column name="DocNo" localize="Doc Number" lenght="10" type="string" defaultvalue="" release="1" />
+			<Column name="DocDate" localize="Doc Date" lenght="10" type="date" defaultvalue="1799-12-31T00:00:00" release="1" />
+			<Column name="LastSubId" localize="Last SubId" lenght="0" type="Long" defaultvalue="0" release="1" />
+		</Columns>
+	</Table>
+	<Table namespace="sandbox.core.coreDbl.EntityDetails">
+		<Create release="1" createstep="2" />
+		<Columns>
+			<Column name="DocID" localize="Doc ID" lenght="0" type="Long" defaultvalue="0" release="1" />
+			<Column name="DocSubId" localize="Doc SubId" lenght="0" type="Long" defaultvalue="0" release="1" />
+			<Column name="Code" localize="Code" lenght="10" type="string" defaultvalue="" release="1" />
+			<Column name="Description" localize="Description" lenght="128" type="string" defaultvalue="" release="1" />
+		</Columns>
+	</Table>
+</Tables>
+</DatabaseObjects>

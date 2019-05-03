@@ -1,0 +1,17 @@
+<Brands>
+	<Brand>
+		<Applications>
+			<Application name="sandbox">
+			<MenuTitle>sandbox TB Application</MenuTitle>
+			</Application>
+		</Applications>
+		<BrandedKeys>
+			<BrandedKey source="Company" branded="Microarea s.p.a." />
+			<BrandedKey source="CompanyLogo" branded="Image.sandbox.core.CompanyLogo.png" />
+			<BrandedKey source="MenuManagerSplash" branded="Image.sandbox.core.SplashMenuManager.jpg" />
+			<BrandedKey source="ProductTitle" branded="sandbox TB Application" />
+		</BrandedKeys>
+	</Brand>
+</Brands>
+	
+
